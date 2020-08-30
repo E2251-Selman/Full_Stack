@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+    <form action="result.html" method="GET" name="MyForm">
+    <div>
+        <label for="Cars">Choose a car :</label>
+        <br>
+        <!-- select icine multitype yazarsak coklu secer -->
+        <select name="cars" id="Cars">
+            <option value="None">choose</option>
+            <option value="Porsche">Porsche</option>
+            <option value="Maserati">Maserati</option>
+            <option value="Bmw">Bmw</option>
+            <option value="Tesla">Tesla</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="Message">Write your message here: </label><br>
+        <textarea name="message" id="Message" style="width: 200px; height: 200px;" maxlength="144">
+
+        </textarea>
+    </div>
+    <br>
+    
+    
+    <!-- selec ten farki dataliste kullanici veri sorabiliyor -->
+    <br>
+    <!-- <div>
+        <label for="Browser">Browsers: </label>
+        <input type="text" list="browsers" name="options">
+        <datalist id="Browser">
+            <option value="firefox"></option>
+            <option value="choreme"></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+
+        </datalist>
+    </div> -->
+    <div>
+        <label for="browsers">Browsers:</label>
+        <input type="text" list="browsers" name="options">
+        <datalist id="browsers" >
+            <option value="Firefox"></option>
+            <option value="Chrome"></option>
+            <option value="Safari"></option>
+            <option value="Opera"></option>
+            <option value="IE"></option>
+        </datalist>
+    </div>
+
+<br>
+
+
+<div>
+    <fieldset>
+        <legend>Personel Info</legend>
+        <label for="Fname">First Name:</label>
+        <input type="text" name="fname" id="Fname" value="Selman">
+
+        <br>
+        <label for="Lname">Last Name:</label>
+        <br>
+        <input type="text" name="lname" id="Lname" value="Ayyildiz">
+    </fieldset>
+</div>
+<input type="submit" value="Sec" >
+
+
+</form>
+
+</body>
+</html>
+
+
+
+

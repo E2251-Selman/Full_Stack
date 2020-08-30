@@ -1,0 +1,35 @@
+
+/* background-color: rgba(0,60, 120, 0.5) */
+#kutu1{
+    
+
+    color: blue !important;
+    border-style: dashed;
+    border-color: salmon;
+    border-width: 5px;
+}
+#kutu2{
+    color: rgb(0, 0, 255);
+    border: 5px dashed salmon 
+}
+#kutu3{
+    color: #0000ff;
+    border-top: 5px dotted #ff9010;
+    border-right: 5px groove cyan;
+    border-bottom: 10px outset #2586ff;
+    border-left: 15px inset #10ef34;
+}
+#kutu4{
+    color: hsl(240,100%,50%);
+    border-style: dotted;
+    border-color: red;
+}
+#kutu5{
+    color: rgba(0, 0, 255, 1.0);
+    border-style: double;
+    border-radius: 10px;
+    
+}
+#kutu6{
+    color: hsla(240, 100%, 50%, 1);
+}
