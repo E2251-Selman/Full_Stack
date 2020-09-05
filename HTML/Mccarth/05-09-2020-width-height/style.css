@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #eeeeee;
+}
+#main-content {
+    background-color: #ffffff;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 2%;
+}
+.auto-width {
+    width: auto;
+    height: auto;
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    outline: 5px dashed red;
+    outline-offset: -5px;
+}
+.length-width::selection{
+    /* text-shadow:5px 1px red; */
+    color: rosybrown;
+    background-color: black;
+    /* secili yerin rengini degistirme */
+}
+.length-width {
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-color: bisque;
+    outline: 5px dashed red;
+    outline-offset: 15px;
+    /* margin: 50px; */ 
+    /* margin degeri verirsek aralari acar */
+}
+.percentage-width {
+    width: 80%;
+    height: 10%;
+    background-color: blueviolet;
+}
+.initial-width {
+    width: initial;
+    height: initial;
+    background-color: lightcoral;
+}
+.inherit-width {
+    width: inherit;
+    height: inherit;
+    background-color: lightseagreen;
+    
+}
+.max-width {
+    max-width: 350px;
+    min-width: 100px;
+    background-color: magenta;
+}
+.max-height{
+    /* display: none; */
+    min-height:150px ;
+    max-width:200px ;
+    background-color: mediumslateblue;
+    overflow: auto;
+    padding: 5px;
+
+}
+div p{
+    background-color: yellow;
+}
+p::first-letter{
+    color: red;
+    font-size: xx-large;
+}
+p{
+    color: mediumturquoise;
+}
+a{
+    
+    color:fuchsia;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: black;
+    cursor: pointer;
+}
+a:active{
+    color: yellow;
+    background-color:lightblue;
+}
+#name:focus{
+    background-color: yellow;
+}
+label::before{
+    content: "\2742";
+    
+}
+label::after{
+    content: "\2742";
+    
+}
+#par{
+    display: none;
+}
+#hover:hover #par{
+    display: block;
+    cursor: pointer;
+}
+#main-content:hover .length-width{
+    display: block;
+}
